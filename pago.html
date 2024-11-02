@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Detalles de Pago</h1>
+    <form id="form-pago" onsubmit="procesarPago(event)">
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" required><br><br>
+
+        <label for="tarjeta">Número de Tarjeta de Crédito:</label>
+        <input type="text" id="tarjeta" required><br><br>
+
+        <label for="tarjeta">contraseña:</label>
+        <input type="text" id="contraseña" required><br><br>
+
+        <button type="submit">Pagar</button>
+    </form>
+
+    <script>
+        function procesarPago(event) {
+            event.preventDefault();
+            const correo = document.getElementById('correo').value;
+            const tarjeta = document.getElementById('tarjeta').value;
+
+            // Aquí podrías agregar lógica para procesar el pago
+            alert(`Pago procesado para ${correo} con tarjeta ${tarjeta} gracias por elejir esta pagina para tu compra`);
+            // Redirigir a una página de confirmación o mostrar un mensaje
+            window.location.href = 'index.html'; // Redirige a la página principal
+        }
+    </script>
+</body>
+</html>

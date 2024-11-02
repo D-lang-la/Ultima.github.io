@@ -1,0 +1,128 @@
+body {
+    background-image: url();
+    height: 100vmin;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    border: #000 solid 2px;
+    background:  #56b8d167;
+    color: #080606;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px
+}
+
+.logo img{
+    height: 100px;
+    width: auto;
+}
+
+.botoncito a{
+  color: #000000;
+    text-decoration: none;
+    display: inline;
+    margin: 0 15px;
+    list-style: none;
+    padding: 0;   
+}
+
+.botoncito{
+  background-color: #000000;
+  background-color: #c42d2d;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff54;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: #000 solid 3px;
+}
+.anuncio {
+    margin-bottom: 20px;
+}
+
+.producto {
+    display: inline-block;
+    width: 25%;
+    margin: 1.5%;
+    text-align: center;
+    background: #e2e2e260;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #35424a7a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    display: inline-block;
+    padding: 6px 15px;
+    font-size: 18px;
+    color: #181616;
+    background: linear-gradient(45deg, #765faa6c, #66a4ce7e);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 5px 15px rgba(83, 149, 175, 0.356);
+}
+
+button:hover {
+    background: linear-gradient(45deg, #7a55555e, #1b0b116b);
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(20, 168, 194, 0.6);
+}
+
+a{
+    text-align: center;
+   color: #000000;
+   text-decoration: none;
+}
+
+.tite{
+     background-color: #754f4f;
+     text-align: center;
+     border-radius: 20px;
+}
+
+.tini {
+    display: inline-block;
+    padding: 6px 15px;
+    font-size: 18px;
+    color: #181616;
+    background: linear-gradient(45deg, #3a13946c, #ff66cc7e);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 5px 15px rgba(83, 149, 175, 0.356);
+    position: relative;
+    right: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.tinni:hover {
+    background: linear-gradient(45deg, #e911115e, #ff00666b);
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(20, 168, 194, 0.6);
+}
+
+
+#carrito-containe{
+    border: 1px solid #000;
+    padding: auto;
+    background-color: #ffffff85;
+}
+

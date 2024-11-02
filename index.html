@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<section class="me">
+    <center>
+    <header>
+    <h2>automotriz alta gama</h2>
+</header>
+ <div>
+        <img src="e08c45175c8e7e8074a8b114fbe70abc.jpg" width="250">
+        <h2>la velocidad es nuestro placer y la seguridad un hecho</h2>
+
+    </div>
+</center>
+</section>
+
+
+<body>
+<section class="prin">
+   
+</section>
+<body>
+    <form id="form-pago" onsubmit="procesarPago(event)">
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" required><br><br>
+
+        <label for="tarjeta">contraseña:</label>
+        <input type="text" id="contraseña" required><br><br>
+
+        <button type="submit">ir a la pagina principal</button>
+    </form>
+
+    <script>
+        function procesarPago(event) {
+            event.preventDefault();
+            const correo = document.getElementById('correo').value;
+
+           // Redirigir a una página de confirmación o mostrar un mensaje
+            window.location.href = 'index.html'; // Redirige a la página principal
+        }
+    </script>
+</body>
+
+</body>
+</html>
